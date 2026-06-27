@@ -1,0 +1,39 @@
+CRITICAL - 2026-06-23 08:02:42 --> ParseError: syntax error, unexpected token "`"
+[Method: CLI, Route: /]
+in APPPATH\Config\Routes.php on line 41.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-06-23 08:02:57 --> ParseError: syntax error, unexpected token "`"
+[Method: CLI, Route: /]
+in APPPATH\Config\Routes.php on line 41.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-06-23 08:05:21 --> ParseError: syntax error, unexpected token "`"
+[Method: CLI, Route: routes]
+in APPPATH\Controllers\Post.php on line 108.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Controllers\\Post.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Post')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Post')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\Post')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(41): CodeIgniter\Router\Router->handle('post')
+ 7 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(57): CodeIgniter\Commands\Utilities\Routes\FilterFinder->getRouteFilters('post')
+ 8 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(78): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('post')
+ 9 SYSTEMPATH\Commands\Utilities\Routes.php(110): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('GET', 'post')
+10 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Utilities\Routes->run([])
+11 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('routes', [])
+12 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+13 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+14 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-06-23 08:07:07 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: CLI, Route: routes]
+in APPPATH\Controllers\Post.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-06-23 10:06:06 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: post]
+in SYSTEMPATH\Debug\Exceptions.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

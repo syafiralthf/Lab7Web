@@ -1,0 +1,66 @@
+CRITICAL - 2026-04-18 04:41:26 --> ErrorException: Undefined variable $content
+[Method: GET, Route: page/about]
+in APPPATH\Views\about.php on line 4.
+ 1 APPPATH\Views\about.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\about.php', 4)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\about.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('about', [], true)
+ 5 APPPATH\Controllers\Page.php(42): view('about', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Page->about()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-18 04:41:42 --> ErrorException: Undefined variable $title
+[Method: GET, Route: page/artikel]
+in APPPATH\Views\template\header.php on line 4.
+ 1 APPPATH\Views\template\header.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\template\\header.php', 4)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\template\\header.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('template/header', null, true)
+ 5 APPPATH\Views\artikel.php(1): CodeIgniter\View\View->include('template/header')
+ 6 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel.php')
+ 7 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel', [], true)
+ 9 APPPATH\Controllers\Page.php(27): view('artikel', [...])
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Page->artikel()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-18 04:43:16 --> ErrorException: Undefined variable $title
+[Method: GET, Route: page/artikel]
+in APPPATH\Views\template\header.php on line 4.
+ 1 APPPATH\Views\template\header.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\template\\header.php', 4)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\template\\header.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('template/header', null, true)
+ 5 APPPATH\Views\artikel.php(1): CodeIgniter\View\View->include('template/header')
+ 6 SYSTEMPATH\View\View.php(238): include('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\app\\Views\\artikel.php')
+ 7 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('artikel', [], true)
+ 9 APPPATH\Controllers\Page.php(27): view('artikel', [...])
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Page->artikel()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
+CRITICAL - 2026-04-18 05:40:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contact.php"
+[Method: GET, Route: page/contact]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('contact', [], true)
+ 3 APPPATH\Controllers\Page.php(47): view('contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Page->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp1\\htdocs\\lab11_ci\\ci4\\public\\index.php')
